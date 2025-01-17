@@ -1,0 +1,1 @@
+This repository demonstrates a common data race bug in Rust.  The code attempts to create two mutable references to the same variable, leading to unpredictable results and potential crashes. The solution shows how to avoid this problem using techniques such as cloning or using interior mutability.
